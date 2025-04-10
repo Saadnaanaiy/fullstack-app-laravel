@@ -3,11 +3,10 @@ import Home from './components/Home';
 import ListeCategories from './components/ListeCategories';
 import ShowCategorie from './components/ShowCategorie';
 import AddCategorie from './components/AddCategorie';
-import './App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

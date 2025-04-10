@@ -1,11 +1,10 @@
-
-
-
-
 const Home = () => {
   return (
-    <div>TheHome</div>
-  )
-}
+    <div>
+      <h1>Welcome to Category Manager</h1>
+      <p>A simple tool to manage your categories</p>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
